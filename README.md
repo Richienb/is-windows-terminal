@@ -1,41 +1,28 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Is Windows Terminal [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/is-windows-terminal/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/is-windows-terminal)
 
-My awesome module.
+Check if the current environment is the Windows Terminal.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/is-windows-terminal.png)](https://npmjs.com/package/is-windows-terminal)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install is-windows-terminal
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const isWindowsTerminal = require("is-windows-terminal");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+isWindowsTerminal;
+//=> true
 ```
 
 ## API
 
-### theModule(input, options?)
+### isWindowsTerminal
 
-#### input
+Type: `boolean`
 
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+If the current environment is the Windows Terminal.

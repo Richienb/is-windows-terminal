@@ -1,14 +1,13 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * If the current environment is the Windows Terminal.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const isWindowsTerminal = require("is-windows-terminal");
+ *
+ * isWindowsTerminal
+ * //=> true
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare const isWindowsTerminal: boolean
 
-export = theModule;
+export = isWindowsTerminal

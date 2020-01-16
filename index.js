@@ -1,7 +1,5 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-	if (typeof input !== "string") throw new TypeError(`Expected a string, got ${typeof input}`)
+const isUUID = require("is-uuid")
 
-	return `${input} & ${postfix}`
-}
+module.exports = process.platform === "win32" && isUUID.v4(process.env.WT_SESSION)
