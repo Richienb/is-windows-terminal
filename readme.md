@@ -13,9 +13,10 @@ npm install is-windows-terminal
 ## Usage
 
 ```js
-const isWindowsTerminal = require("is-windows-terminal");
+const isWindowsTerminal = require("is-windows-terminal")
 
-isWindowsTerminal;
+// When running in Windows Terminal
+console.log(isWindowsTerminal)
 //=> true
 ```
 
@@ -25,4 +26,4 @@ isWindowsTerminal;
 
 Type: `boolean`
 
-If the current environment is the Windows Terminal.
+Whether the current environment is the Windows Terminal.

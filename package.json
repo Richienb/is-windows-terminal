@@ -11,11 +11,11 @@
 		"index.d.ts"
 	],
 	"engines": {
-		"node": ">=4"
+		"node": ">=10"
 	},
 	"scripts": {
 		"lint": "xo",
-		"test": "yarn lint && ava"
+		"test": "xo && ava"
 	},
 	"keywords": [
 		"windows",
@@ -30,17 +30,15 @@
 		"env"
 	],
 	"dependencies": {
-		"is-uuid": "^1.0.2"
+		"is-uuid": "^1.0.2",
+		"is-wsl": "^2.2.0"
 	},
 	"devDependencies": {
-		"ava": "^2.4.0",
-		"eslint-config-richienb": "^0.3.0",
-		"xo": "^0.25.3"
-	},
-	"resolutions": {
-		"eslint": "^6.8.0"
+		"ava": "^3.13.0",
+		"eslint-config-richienb": "^0.5.0",
+		"xo": "^0.35.0"
 	},
 	"xo": {
-		"extends": "richienb/node"
+		"extends": "richienb"
 	}
 }

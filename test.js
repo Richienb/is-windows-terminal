@@ -1,6 +1,6 @@
-import test from "ava"
-import isWindowsTerminal from "."
+const test = require("ava")
+const isWindowsTerminal = require(".")
 
-test("main", (t) => {
+test("main", t => {
 	t.is(typeof isWindowsTerminal, "boolean")
 })
