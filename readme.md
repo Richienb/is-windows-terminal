@@ -1,4 +1,4 @@
-# Is Windows Terminal [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/is-windows-terminal/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/is-windows-terminal)
+# is-windows-terminal [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/is-windows-terminal/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/is-windows-terminal)
 
 Check if the current environment is the Windows Terminal.
 
